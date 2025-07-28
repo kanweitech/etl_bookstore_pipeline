@@ -2,6 +2,7 @@
 
 import pandas as pd
 import requests
+from pymongo import MongoClient 
 
 # Extract data from API
 url = 'https://full-stack-bookstore-mern-backend.vercel.app/api/books'
@@ -56,3 +57,18 @@ def main(url):
   df['updatedAt'] = pd.to_datetime(df['updatedAt'])
 
   print(df.sample(5))
+
+  # mongodb connection string
+  con_str = 'mongodb+srv://odisvybz:I82hkAVaot6y9eKW@cluster0.qxtmbf0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+  client = MongoClient(con_str)
+  mydB = client['test_data']
+  collection = mydB['etl']
+
+  #parse dataframe to dictionary object
+  dictObject = df.to_dict(orient='records')
+
+  # check the data type
+  #print(type(dictObject))
+
+  # insert records into destination database
+  collection.insert_many(dictObject)
