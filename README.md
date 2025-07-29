@@ -50,8 +50,7 @@ DB_NAME=your_database_name
 
 ## 📦 Installation
 # Clone the repo
-`git clone https://github.com/kanweitech/etl_bookstore_pipeline/tree/main`
-https://github.com/kanweitech/etl_bookstore_pipeline/tree/main
+`git clone https://github.com/kanweitech/etl_bookstore_pipeline.git`
 
 # Create a virtual environment (optional)
 `python -m venv venv
@@ -59,4 +58,22 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate`
 
 # Install dependencies
 `pip install -r requirements.txt`
+## ▶️ Usage
 ```
+python book_store_etl_logic.py
+```
+If successful, you'll see:
+```
+ETL script executed successfully
+```
+## 🧪 Sample API Endpoint
+This project uses the following API:
+`https://full-stack-bookstore-mern-backend.vercel.app/api/books`
+
+## 📄 License
+This project is open source and available under the MIT License.
+
+## 👤 Author
+Kanwei Edward
+
+GitHub: @kanweitech
