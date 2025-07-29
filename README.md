@@ -82,6 +82,17 @@ Kanwei Edward
 
 GitHub: @kanweitech
 
-[![GitHub Repo](https://img.shields.io/badge/Repo-kanweitech/bookstore--etl--pipeline-blue?logo=github)](https://github.com/kanweitech/etl_bookstore_pipeline)
+## 🚀 ETL Bookstore Pipeline
+
+![Project Image](https://avatars.githubusercontent.com/u/137532014?v=4)
+
+**[kanweitech/etl_bookstore_pipeline](https://github.com/kanweitech/etl_bookstore_pipeline)**  
+Extract-Transform-Load pipeline for a bookstore API, loading structured book data into MongoDB using Python, Pandas, and Requests.
+
+🔹 Python • Pandas • MongoDB • REST API  
+🔹 Contributor: [@kanweitech](https://github.com/kanweitech)
+
+⭐ Stars: ![GitHub Repo stars](https://img.shields.io/github/stars/kanweitech/etl_bookstore_pipeline?style=social)  
+
 
 
