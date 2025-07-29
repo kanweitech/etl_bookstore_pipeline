@@ -1,5 +1,7 @@
 # 📚 Bookstore ETL Pipeline
 
+![header](https://github.com/kanweitech/etl_bookstore_pipeline/blob/main/static/1753757002567.jpg)
+
 This is a simple ETL (Extract, Transform, Load) project that extracts book data from an external API and loads it into a MongoDB database. The goal is to demonstrate basic data engineering logic using Python and MongoDB.
 
 ---
