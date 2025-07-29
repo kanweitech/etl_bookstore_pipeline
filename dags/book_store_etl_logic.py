@@ -3,6 +3,7 @@
 import pandas as pd
 from pymongo import MongoClient
 import requests
+from dotenv import dotenv_values
 
 #Extract data from book store API
 url = 'https://full-stack-bookstore-mern-backend.vercel.app/api/books'
@@ -12,9 +13,11 @@ response = requests.get(url)
 data = response.json()
 
 # create a connection string
-con_str = 'mongodb+srv://odisvybz:I82hkAVaot6y9eKW@cluster0.qxtmbf0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+config = dotenv_values(".env")
+
 
 # create an engine and load data to a mongodb database
+MongoClient(config["ATLAS_URI"])
 client = MongoClient(con_str)
 mydB = client['test_data']
 collection = mydB['etl']
