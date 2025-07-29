@@ -81,3 +81,10 @@ This project is open source and available under the MIT License.
 Kanwei Edward
 
 GitHub: @kanweitech
+
+## 📚 ETL Bookstore Pipeline
+
+[![Kanwei's GitHub Stats](https://github-readme-stats.vercel.app/api/pin/?username=kanweitech&repo=etl_bookstore_pipeline&theme=default)](https://github.com/kanweitech/etl_bookstore_pipeline)
+
+> 🛠️ A lightweight ETL pipeline that extracts bookstore data from a public API, transforms it using `pandas`, and loads it into MongoDB with support for `.env` secrets.
+> 
