@@ -81,18 +81,3 @@ This project is open source and available under the MIT License.
 Kanwei Edward
 
 GitHub: @kanweitech
-
-## 🚀 ETL Bookstore Pipeline
-
-![Project Image](https://avatars.githubusercontent.com/u/137532014?v=4)
-
-**[kanweitech/etl_bookstore_pipeline](https://github.com/kanweitech/etl_bookstore_pipeline)**  
-Extract-Transform-Load pipeline for a bookstore API, loading structured book data into MongoDB using Python, Pandas, and Requests.
-
-🔹 Python • Pandas • MongoDB • REST API  
-🔹 Contributor: [@kanweitech](https://github.com/kanweitech)
-
-⭐ Stars: ![GitHub Repo stars](https://img.shields.io/github/stars/kanweitech/etl_bookstore_pipeline?style=social)  
-
-
-
