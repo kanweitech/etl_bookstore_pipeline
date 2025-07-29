@@ -49,10 +49,8 @@ DB_NAME=your_database_name
 ```
 
 ## 📦 Installation
-```
 # Clone the repo
-`git clone https://github.com/yourusername/bookstore-etl-pipeline.git
-cd bookstore-etl-pipeline`
+`git clone https://github.com/kanweitech/etl_bookstore_pipeline/tree/main`
 
 # Create a virtual environment (optional)
 `python -m venv venv
