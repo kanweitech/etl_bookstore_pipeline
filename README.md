@@ -31,7 +31,7 @@ This is a simple ETL (Extract, Transform, Load) project that extracts book data 
 2. **Transform**: Parses and flattens the JSON response using `pandas`.
 3. **Load**: Inserts the cleaned records into a MongoDB collection.
 
-![loading_image](https://github.com/kanweitech/etl_bookstore_pipeline/blob/main/static/1753756147911.jpg)
+![loading_image](https://github.com/kanweitech/etl_bookstore_pipeline/blob/main/static/1753757242939.jpg)
 
 ---
 
