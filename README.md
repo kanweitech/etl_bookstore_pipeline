@@ -82,7 +82,6 @@ Kanwei Edward
 
 GitHub: @kanweitech
 
-[![Stars](https://img.shields.io/github/stars/kanweitech/etl_bookstore_pipeline?style=social)](https://github.com/kanweitech/etl_bookstore_pipeline/stargazers)
-[![Forks](https://img.shields.io/github/forks/kanweitech/etl_bookstore_pipeline?style=social)](https://github.com/kanweitech/etl_bookstore_pipeline/network)
-[![Last Commit](https://img.shields.io/github/last-commit/kanweitech/etl_bookstore_pipeline)](https://github.com/kanweitech/etl_bookstore_pipeline/commits)
+[![GitHub Repo](https://img.shields.io/badge/Repo-kanweitech/bookstore--etl--pipeline-blue?logo=github)](https://github.com/kanweitech/etl_bookstore_pipeline)
+
 
