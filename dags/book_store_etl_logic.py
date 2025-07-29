@@ -17,9 +17,9 @@ config = dotenv_values(".env")
 
 
 # create an engine and load data to a mongodb database
-MongoClient(config["ATLAS_URI"])
-client = MongoClient(con_str)
-mydB = client['test_data']
+client = MongoClient(config["CONNECTION_STRING"])
+mydB = client[config["DB_NAME"]]
+
 collection = mydB['etl']
 
 
