@@ -59,7 +59,7 @@ def main(url):
   print(df.sample(5))
 
   # mongodb connection string
-  con_str = 'mongodb+srv://odisvybz:I82hkAVaot6y9eKW@cluster0.qxtmbf0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+  con_str = 'mongodb+srv://<username>:<password>@cluster0.qxtmbf0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
   client = MongoClient(con_str)
   mydB = client['test_data']
   collection = mydB['etl']
